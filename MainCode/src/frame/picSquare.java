@@ -61,7 +61,6 @@ public class  picSquare {
             screenFile.mkdirs();//创建文件路径
         }
         Robot robot;
-        String path = "";
         boolean b = false;
         try {
             robot = new Robot();
@@ -71,9 +70,7 @@ public class  picSquare {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (b) {
-            path = fileName + File.separator + name;
-        }
+
 
     }
 }
