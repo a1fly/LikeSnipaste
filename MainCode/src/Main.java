@@ -1,7 +1,19 @@
+import frame.MyFrame;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("helloworld");
-        System.out.println("helloworld");
-        System.out.println("helloworld");
+        MyFrame mf=new MyFrame();
+        mf.CreateFrame("窗口");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
