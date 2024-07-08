@@ -51,7 +51,6 @@ public class  picSquare {
 
     public void cutpic() throws AWTException {
         String fileName = "MainCode/image";
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();//获取屏幕大小
         Rectangle screenRectangle = new Rectangle(this.start[0],this.start[1],Math.abs(this.start[0]-this.end[0]),Math.abs(this.start[1]-this.end[1]));//根据屏幕大小创建一个矩形
         String randomName = UUID.randomUUID().toString().replace("-", "");
         String name = randomName + ".png";//jpg等也可
